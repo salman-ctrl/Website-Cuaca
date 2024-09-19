@@ -103,3 +103,43 @@ body{
     margin-top: 10px;
     display: none;
 }
+
+@media screen and (max-width: 480px) {
+    .card {
+        width: 95%;
+        padding: 30px 25px;
+        margin: 50px auto;
+    }
+
+    .search input {
+        font-size: 16px;
+        height: 50px;
+        padding: 8px 20px;
+    }
+
+    .search button {
+        width: 50px;
+        height: 50px;
+    }
+
+    .weather h1 {
+        font-size: 60px;
+    }
+
+    .weather h2 {
+        font-size: 35px;
+    }
+
+    .details {
+        flex-direction: row;
+        margin-top: 30px;
+    }
+
+    .col {
+        margin-bottom: 20px;
+    }
+
+    .wind, .humidity {
+        font-size: 24px;
+    }
+}
